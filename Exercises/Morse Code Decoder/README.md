@@ -25,6 +25,7 @@ The dictionary is located in this folder, which is with the readme file
 
 #### Now should teach to work with dictionary.
 - Read about dictionary type in the book.
+- Read about "for...in..." in the internet
 - Take this code --> fruits = {1: 'apple', 2: 'orange', 3: 'banana'} and write a code that will find any fruit and print its numer. Add your code to this template. 
 
 ![278551211_553884773018560_2086188088093489911_n](https://user-images.githubusercontent.com/83316137/164453455-13f3c6bf-bb1d-472d-af0c-410548e6d791.png)
