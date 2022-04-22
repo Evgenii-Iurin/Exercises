@@ -19,12 +19,12 @@ The dictionary is located in this folder, which is with the readme file
 ## 📋 I recommend to write your code step by step
 
 #### First of all, you should teach to split a string into elements.
-- Read the article about string type in the book.
+- Read the article about string type on 99 page in the book "Learning python, 5th Edition".
 - Read about "split" command for string type
 - Write a code that will display all the elements of a string in the list, like this: 'HEY JUDE' --> ['HEY', 'JUDE']
 
 #### Now should teach to work with dictionary.
-- Read about dictionary type in the book.
+- Read about dictionary type on 113 page in the book "Learning python, 5th Edition"
 - Read about "for...in..." in the internet
 - Take this code --> fruits = {1: 'apple', 2: 'orange', 3: 'banana'} and write a code that will find any fruit and print its numer. Add your code to this template. 
 
