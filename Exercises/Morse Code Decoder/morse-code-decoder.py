@@ -11,3 +11,17 @@ MORSE_CODE = {'.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D',
               '-.--.': '(', '-.--.-': ')', '.-...': '&', '---...': ':', '-.-.-.': ';',
               '-...-': '=', '.-.-.': '+', '-....-': '-', '..--.-': '_', '.-..-.': '"',
               '...-..-': '$', '.--.-.': '@', '...---...': 'SOS'}
+
+
+def morse_code_decoder(morse_code):
+    output = ''
+    for word in morse_code.strip().split('   '):
+        for letter in word.split(' '):
+            output += MORSE_CODE[letter]
+        output += ' '
+
+    return(output).rstrip(' ')
+
+
+
+print(morse_code_decoder('   .... . -.--   .--- ..- -.. .'))
