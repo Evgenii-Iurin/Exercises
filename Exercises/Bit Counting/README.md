@@ -8,4 +8,4 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 
 This task is taken from here --> https://www.codewars.com/kata/526571aae218b8ee490006f4
 
-## 👾 Happe codding!
+## 👾 Happy codding!
