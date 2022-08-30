@@ -1,6 +1,6 @@
 input = [91, 2, 2, 1, 2002, 0.1]
-output = []
-i = 0
+# output = []
+# i = 0
 
 def sort(input, output, i):
     global index_min
@@ -22,11 +22,11 @@ def sort(input, output, i):
         input.pop(index_min)
         output.append(min)
         i=0;
-        output.append(sort(input, output,i))
-
+        sort(input, output,i)
+        return output
 
     else:
         output.append(input[0])
-        print(output)
 
-sort(input, output, i)
+
+res = sort(input, output=[], i=0)
